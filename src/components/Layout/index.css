@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.layouts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layout-container {
+  width: 80%;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+  .layouts-container {
+    max-width: 1110px;
+  }
+}
